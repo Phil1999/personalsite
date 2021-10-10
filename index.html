@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Philip Lee | Developer </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+    maximum-scale=1, minimum-scale=1">
+    <meta name="keywords" content="Philip Lee, Coder, Programmer, Django, Developer, Python, React">
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "styles/style.css">
+
+    <!-- CSS for different themes -->
+    <link id = "theme-style" rel ="stylesheet" type = "text/css" href = "styles/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class = "s1">
+        <div class = "container pb-5 pt-5">
+            <div class = "greeting-wrapper">
+                <!-- <h1>Hey, I'm Philip</h1> -->
+            </div>
+
+            <div class = "intro-wrapper row">
+                <div class = "nav-wrapper col-md-12">
+                    <div class = "dots-wrapper">
+                        <div id = "dot-1" class = "browser-dot"></div>
+                        <div id = "dot-2" class = "browser-dot"></div>
+                        <div  id = "dot-3" class = "browser-dot"></div>
+                    </div>
+
+                    <ul id = "navigation">
+                        <!-- <li><a href = "#" id = "scroll-contact">Contact</a></li> -->
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 pt-5 pb-5">
+                    <img id = "profile-pic" src = "assets/images/profile.jpg" />
+                    <h5 class = "pt-3" style = "text-align: center;"> Philip Lee</h5>
+
+                    <div id = "theme-options-wrapper">
+                        <div class = "theme-dot" id = "light-mode" data-mode="light"></div>
+                        <div class = "theme-dot" id = "blue-mode" data-mode="blue"></div>
+                        <div class = "theme-dot" id = "dark-mode" data-mode="dark"></div>
+                    </div>
+                    <p id = "settings-note">*Theme settings will be saved for <br/> your next visit</p>
+                </div>
+
+                <div class = "col-md-6 row align-items-center justify-content-center pt-5 pb-5">
+                    <div id = "preview-shadow">
+                        <div id = "preview">
+                            <div id = "corner-tl" class = "corner"></div>
+                            <div id = "corner-tr" class = "corner"></div>
+                            <h3> What I do</h3>
+                            <p> Web Developer looking to gain professional experience in a role where I can apply
+                                the skills I have accumulated over the years and improve them. </p>
+                            <div id = "corner-bl" class = "corner"></div>
+                            <div id = "corner-br" class = "corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class = "s2 contact">
+        <div class = "container">
+            <h3 class = "pt-5" style = "text-align: center;">Projects</h3>
+            <div class = "post-wrapper pt-5 pb-5">
+
+                <div class = "card post" style="width: 20rem;">
+                    <img class = "card-img-top" src = "assets/images/projects/crypto.png" />
+                    <div class = "card-body">
+                        <h5 class = "card-title">Cryptocurrency Site</h5>
+                        <p class = "card-text">
+                            Cryptocurrency website where you can view up-to-date news about various 
+                            cryptocurrencies and keep track of daily changes in prices and 
+                            movement of prices over select time periods. 
+                        </p>
+                        <a href = "#" target = "_blank">Live Demo</a>
+                        <div class="card-footer">
+                            <a href = "#" class="">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "card post" style="width: 20rem;">
+                    <img class = "card-img-top" src = "assets/images/projects/expensemanager.png" />
+                    <div class = "card-body">
+                        <h5 class = "card-title">Expense Manager</h5>
+                        <p class = "card-text">Web App to keep track of your expenses and income. 
+                            Implemented using Django and Postgres with CRUD principles complete with user registration,
+                            email account activation, login, user settings, and exporting data to CSV.
+                        </p>
+                        <a href = "#" target = "_blank">Live Demo</a>
+                        <div class="card-footer">
+                            <a href = "#" class="">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class = "card post" style="width: 20rem;">
+                    <img class = "card-img-top" src = "assets/images/projects/noteapp.png" />
+                    <div class = "card-body">
+                        <h5 class = "card-title">Notes App</h5>
+                        <p class = "card-text">
+                            My take on the iphone's note's app on a web app. 
+                            Implemented using React and Django using Django-rest-framework. Users have the ability to 
+                            create, delete, and edit notes. 
+                        </p>
+                        <a href = "#" target = "_blank">Live Demo</a>
+                        <div class="card-footer">
+                            <a href = "#" class="">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "card post" style="width: 20rem;">
+                    <img class = "card-img-top" src = "assets/images/projects/tetris.png" />
+                    <div class = "card-body">
+                        <h5 class = "card-title"> React Tetris </h5>
+                        <p class = "card-text">
+                            Tetris reimagined in React using react hooks for a fun side project. 
+                            Created by going through a tutorial to learn more about react-hooks.
+                        </p>
+                        <a href = "#" target = "_blank">Live Demo</a>
+                        <div class="card-footer">
+                            <a href = "#" class="">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "s1">
+        <div class = "container pt-5">
+            <div class = "row">
+                <div class = "col-md-6 about-me"> 
+                    <h4> More about me</h4>
+                    <p class = "pt-2">As an avid techie, I continually look for new ways to improve as a developer and learn new technologies
+                    that I can apply to the real world.
+                    </p>
+                    <p>I enjoy creating projects that make life easier or simply pique my interest!</p>
+                
+                    <hr/>
+                    <br/>
+                    <h4>Skills/Technologies</h4>
+                    <p class = "pt-2"> Fullstack developer with a focus on React and Django. I use Visual Studio Code! <br/> <a href = "resume.pdf" target = "_blank"> Resume </a></p>
+                    <div id = "skills">
+                            <ul class = "pt-3">
+                                <li>Django</li>
+                                <li>React</li>
+                                <li>PostgreSQL</li>
+                                <li>Postman</li>
+                                <li>Bootstrap/Material UI</li>
+                                
+                            </ul>
+                            <ul class = "pt-3">
+                                <li>HTML/CSS</li>
+                                <li>Javascript</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>Chrome DevTools</li>
+                                
+                            </ul>
+                    </div>
+                </div>
+                <div class = "col-md-6 social-links mt-2">
+                    <img id = "social_img" src = "assets/images/test.jpg" />
+                    <h3 class = "pt-4">Check out my GitHub or LinkedIn</h3>
+                    <p>GitHub: <a target = "_blank" href = "https://github.com/Phil1999">@phil1999</a></p>
+                    <p>LinkedIn: <a target = "_blank" href = "https://www.linkedin.com/in/philip-lee-333b00176/">@phil1999</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class = "s2">
+        <div class = "container">
+            <h3 class = "pt-5 pb-5" style = "text-align: center;">Contact Me</h3>
+            <form class = "pt-5 pb-5" id = "contact-form" action = "https://getform.io/f/44c5b2cf-765d-4561-a7d2-9773f5002541" method = "POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type = "text" name = "name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input class="form-control" type = "text" name = "subject" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type = "email" name = "email" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" name = "message" required></textarea>
+                </div>
+                
+                <button type="submit" id = "submit-btn" class="btn mt-5"> Send</button>
+              </form>
+        </div>
+    </section>
+</body>
+<!--Scripts-->
+<script src = "scripts/scripts.js"></script>
+
+</html>
