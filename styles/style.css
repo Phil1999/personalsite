@@ -69,7 +69,11 @@ p, li, span, label, input, textarea {
     display: grid;
     align-content: center;
     text-align: center;
-    /* min-height: 10em;     */
+    
+}
+
+.greeting-wrapper h1 {
+    color: #0092bb;
 }
 
 .intro-wrapper {
